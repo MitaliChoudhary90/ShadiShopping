@@ -2,37 +2,46 @@ body{
     position:relative;
     padding-left: 20px;
 }
-#main{
-    background-image: linear-gradient(blue,black);
-}
 header{
-    
-    background-size:cover;
-    background-image: url("pexels-eberhard-grossgasteiger-2088210.jpg");
-    height: 12vh;
-    border: none;
-    position: relative;
-    width: 98vw;
-    top:-7px;
-    left:-20px;
-    right:0vw;
-    padding: 20px;
-    margin-bottom: 30px;
-    
-    
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: #fff;
+    text-align: center;
+    height: 15vh;
+    font-size: 80px;
+    margin-top: -1vh;
+    margin-left: -3.5vh;
+    width: 99vw;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
 }
-img{
+#imageleft{
     height: 100px;
     width: 100px;
-    position: relative;
-    top:-1vh;
 }
-#brand_name{
-    position: relative;
-    left:2vw;
-    top:-25vh;
-    font-family: 'Dancing Script', cursive;
-    font-size:13vh;
+#imageright{
+    height: 80px;
+    width: 80px;
+    
+}
+.headerImageLeft{
+    float: left;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.headerImageRight{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+nav{
+    padding: 15px;
+    margin-left: -2vw;
+    width: 98vw;
+}
+#brand_menu{
+    padding-top: 25px;
 }
 .glow {
     font-size: 80px;

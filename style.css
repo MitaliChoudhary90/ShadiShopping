@@ -1,0 +1,76 @@
+body{
+    position:relative;
+    padding-left: 20px;
+}
+#main{
+    background-image: linear-gradient(blue,black);
+}
+header{
+    
+    background-size:cover;
+    background-image: url("pexels-eberhard-grossgasteiger-2088210.jpg");
+    height: 12vh;
+    border: none;
+    position: relative;
+    width: 98vw;
+    top:-7px;
+    left:-20px;
+    right:0vw;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top:-1vh;
+}
+#brand_name{
+    position: relative;
+    left:2vw;
+    top:-25vh;
+    font-family: 'Dancing Script', cursive;
+    font-size:13vh;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+#profile_pic{
+    float:right;
+    position: relative;
+    right:4vw;
+    top:1vh;
+    border-radius: 35px;
+}
+.dropdown{
+    background-color: white;
+    color: #f30b87;
+    font-size: larger;
+    border: 2px solid #f30b87;
+    border-radius: 10px;
+}
+#avatar{
+    position:relative;
+    left: 30vw;
+
+}
+#dress_name{
+    float:right;
+    
+}
